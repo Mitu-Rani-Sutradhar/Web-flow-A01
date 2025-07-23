@@ -85,10 +85,34 @@
     padding-top: 13px;
 
     
-    
 }
 
 .banner-image{
     width: 570px;
     height: 355px;
+}
+
+/* plants section style */
+
+
+.plants{
+    margin-top: 150px;
+}
+.sec-plants{
+    text-align: center;
+    width: 888px;
+    height: 54px;
+}
+.sec-plants-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.sec-plants-des{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+
+}
+
+.plants-color{
+    color:rgba(233, 90, 8, 1);
 }
