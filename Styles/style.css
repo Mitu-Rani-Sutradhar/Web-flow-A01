@@ -136,12 +136,18 @@
 
 /* Article-sec/card styles */
 
+.Article-sec{
+    width: 1140px;
+    height: 1186.88px;
+}
+
 .card-container{
     display: grid;
   grid-template-columns:repeat(4,1fr) ;
+
 }
 .card{
-    width: 270px;
+    width: 150px;
     height: 484.94px;
     margin-top: 49px;
 }
@@ -157,4 +163,38 @@
     font-size: 22px;
 }
 
+/*plants-lover-section style*/
 
+
+.plants-lover{
+    display: flex;
+    width: 1140px;
+    height: 597px;
+    margin-top: 210.12px;
+}
+
+
+.plants-lover-img{
+    display: 50%;
+    width: 540px;
+}
+.plants-lover-title{
+    height: 100px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.plants-lover-list{
+    font-size: 22px;
+    font-weight: 500px;
+    height: 108px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.plants-lover-container{
+    width: 540px;
+    height: 521px;
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top: 38px;
+    margin-bottom: 38px;
+
+}
