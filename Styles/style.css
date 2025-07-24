@@ -8,6 +8,18 @@
     "wdth" 100;
 }
 
+/*shared style*/
+.primary-bnt{
+    color:#FFFFFF;
+    background-color: #E95A08;
+    width: 270px;
+    height: 50px;
+    font-weight:600px;
+    font-size: 16px;
+    border: none;
+}
+
+
 /* main part style */
 
 
@@ -95,24 +107,54 @@
 /* plants section style */
 
 
+
 .plants{
-    margin-top: 150px;
-}
-.sec-plants{
     text-align: center;
     width: 888px;
-    height: 54px;
+    height: 138px;
+    margin-top: 150px;
+    margin-left: 120px;
+    
+    
 }
 .sec-plants-title{
     font-size: 50px;
     font-weight: bold;
+    text-align: center;
 }
 .sec-plants-des{
     color: rgba(0, 0, 0, 0.5);
     font-size: 22px;
+    padding-bottom: 49px;
+    text-align: center;
 
 }
 
 .plants-color{
     color:rgba(233, 90, 8, 1);
 }
+
+/* Article-sec/card styles */
+
+.card-container{
+    display: grid;
+  grid-template-columns:repeat(4,1fr) ;
+}
+.card{
+    width: 270px;
+    height: 484.94px;
+    margin-top: 49px;
+}
+.container{
+    text-align: center;
+}
+.container-para{
+    font-size: 22px;
+    font-weight: 500;
+}
+.container-usd{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
