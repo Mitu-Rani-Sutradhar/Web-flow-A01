@@ -144,6 +144,7 @@
 .card-container{
     display: grid;
   grid-template-columns:repeat(4,1fr) ;
+  
 
 }
 .card{
@@ -153,6 +154,7 @@
 }
 .container{
     text-align: center;
+    
 }
 .container-para{
     font-size: 22px;
@@ -162,6 +164,7 @@
     font-weight: bold;
     font-size: 22px;
 }
+
 
 /*plants-lover-section style*/
 
@@ -199,11 +202,7 @@
 
 }
 
-.badge{
-    height: 286px;
-    width: 286px;
-    margin-left: 497px;
-}
+
 
 /*section2 latest deals styles */
 
@@ -404,7 +403,12 @@ color: rgba(0, 0, 0, 0.5);
     width: 171px;
 }
 .primary-bnt{
-    width: 171px;
+    width: 160px;
+    font-size:16px ;
+    height: 30px;
+    
+
+
     
     
 }
@@ -442,6 +446,12 @@ margin-top: 16px;
     width: 300px;
     
 }
+
+
+
+
+
+
 .latest-deals{
 width: 393px;
 height: 117px;
