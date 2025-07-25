@@ -199,6 +199,12 @@
 
 }
 
+.badge{
+    height: 286px;
+    width: 286px;
+    margin-left: 497px;
+}
+
 /*section2 latest deals styles */
 
 .latest-deals{
@@ -225,4 +231,87 @@
 }
 
 
+/*footer styles*/
+.footer{
+   display: flex;
+   height:248px ;
+   width: 1120px;
+   margin-top:60px; 
+   margin-bottom: 60px;
+   margin-left: 160px;
+   margin-right: 160px;
+}
 
+.middle-two{
+    display: flex;
+    gap:50px;
+    
+    
+}
+.footer-first-div{
+    width: 359px;
+    height: 179px;
+    margin-bottom: 119px;
+}
+.footer-image{
+    width: 135px;
+    height: 82px;
+}
+.footer-des{
+    color:#000000 ;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+}
+.middle-1{
+    width: 100px;
+    height:248px;
+    line-height:2.4;
+    
+}
+.about{
+    width: 100px;
+}
+.middle-1 ul li{
+list-style: none;
+color: rgba(0, 0, 0, 0.5);
+}
+
+.middle-2 ul li{
+ list-style: none;
+ color: rgba(0, 0, 0, 0.5);
+}
+
+.contact{
+    width: 85px;
+}
+
+.middle-2{
+    width: 150px;
+    height: 248px;
+    line-height:2.4;
+    
+    
+}
+.middle-two{
+    
+    padding-left: 60px;
+}
+
+.footer-corner{
+    padding-left: 200px;
+    text-align: center;
+    display: flex;
+    gap:20px;
+
+}
+.img-1{
+    height: 36px;
+    width: 36px;
+    border-radius: 10px;
+}
+.img-2{
+    height: 36px;
+    width: 36px;
+    border-radius: 48px;
+}
