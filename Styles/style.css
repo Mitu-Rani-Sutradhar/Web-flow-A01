@@ -93,7 +93,7 @@
     height: 108px;
     font-size: 22px;
     font-weight: 300;
-    color:#000000;
+    color:rgba(0, 0, 0, 0.5);
     padding-top: 13px;
 
     
@@ -315,3 +315,190 @@ color: rgba(0, 0, 0, 0.5);
     width: 36px;
     border-radius: 48px;
 }
+
+
+
+/* media*/
+
+@media screen and (max-width:576px){
+.nav-head{
+       width: 100%; 
+       display: flex;
+       gap:150px;
+       }
+
+.main-part{
+     margin-left: 16px;
+}
+.nav-logo{
+    margin-left: 16px;
+    width: 63px;
+    height:38px ;
+    
+}
+.list-hm,
+.list-sp,
+.list-about{
+    display: none;
+}
+.list-cart{
+    margin-right: 16px;
+    width: 113px;
+    height: 24px;
+}
+.banner{
+    flex-direction:column-reverse;
+}
+
+.banner-image{
+    width:393.18px;
+    height: 254px;
+    filter:opacity(20%);
+    
+    }
+
+.banner-title{
+    width: 361px;
+    height: 66px;
+    font-size: 24px;
+    padding-top: 28px;
+    
+}
+.banner-para{
+    width: 360px;
+    height:68px ;
+    font-size: 14px;
+    padding-top:1px;
+    
+
+}
+.plants{
+    width:393px ;
+    margin-left:0px;
+    margin-top: 20px;
+    
+}
+
+.sec-plants-title{
+    font-size: 24px;
+    margin-left: 28.5px;
+    margin-right: 28.5px;
+    margin-top: 20px;
+}
+
+.sec-plants-des{
+    width: 336px;
+    
+}
+.card-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 362px;
+    margin-right: 16px;
+    
+    }
+
+
+
+.card-image{
+    width: 171px;
+}
+.primary-bnt{
+    width: 171px;
+    
+    
+}
+.card-none{
+    display: none;
+}
+.plants-lover{
+    flex-direction: column;
+    
+
+    
+}
+.plants-lover-img{
+    width: 358px;
+    height: 396px;
+    margin-top: 280px;
+
+}
+.plants-lover-container{
+width: 361px;
+
+margin-left: 1px;
+margin-top: 16px;
+}
+.plants-lover-title{
+    font-size: 24px;
+    width: 270px;
+    height: 33px;
+}
+.plants-lover-para{
+
+}
+.plants-lover-list{
+    font-size:14px ;
+    width: 300px;
+    
+}
+.latest-deals{
+width: 393px;
+height: 117px;
+}
+
+
+.section2-title{
+    margin-top: 500px;
+    font-size: 24px;
+
+}
+.section-2-description{
+    font-size:14px;
+    width: 336px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.images-sec3{
+    flex-direction: column;
+    margin-left:16px;
+    margin-top: 20px;
+    padding-left: 16px;
+}
+.images{
+ margin-left: 16px;   
+}
+
+.img1{
+    width:361px;
+    height: 184.5px;
+    padding-left: 16px;
+    border-radius: 30px;
+}
+
+
+
+
+.footer{
+    margin-top: 100px;
+    margin-left: 40px;
+    flex-direction: column;
+
+}
+.footer-first-div{
+    margin-bottom: 5px;
+}
+.middle-two{
+    flex-direction: column;
+}
+
+.footer-corner{
+    padding-left: 16px;
+}
+
+
+
+}
+
+
