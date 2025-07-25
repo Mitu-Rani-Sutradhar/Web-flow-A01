@@ -512,3 +512,8 @@ height: 117px;
 }
 
 
+@media screen and (max-width:600px) {
+.ass-2{
+    flex-direction: column;
+}
+}
